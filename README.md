@@ -30,20 +30,21 @@ This tool is ideal for retail investors, students, or anyone who wants a quick a
 ## 🔁 ETL Flow Diagram
 
 ```mermaid
-flowchart LR
-    A[Input: Ticker/Company] --> B[Extract stock data (Alpha Vantage)]
-    B --> C[Forecast (Prophet)]
-    A --> D[Extract news data (Finnhub/Mock)]
-    D --> E[Sentiment scoring (FinBERT)]
-    B --> F[Store cleaned CSVs]
-    E --> F
-    F --> G[Plot & Save Charts]
-    F --> H[Gemini Summary]
+flowchart TD
+    A[Input: Stock Ticker] --> B[Extract Stock Data (Alpha Vantage)]
+    A --> C[Extract News Data (Finnhub)]
+    B --> D[Clean & Save Stock Data]
+    C --> E[Perform Sentiment Analysis (FinBERT)]
+    D --> F[Forecast Stock Price (Prophet)]
+    E --> G[Generate Sentiment Scores]
+    F --> H[Plot Forecast Charts]
+    G --> I[Summarize Insights with Gemini]
 
 
 ---
 
 ## 🚀 How to Run Locally
+```
 
 ### 1. Clone the Repository
 
