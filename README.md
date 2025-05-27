@@ -43,9 +43,10 @@ flowchart TD
 
 ---
 
+```markdown
 ## 🚀 How to Run Locally
-```
 
+```
 ### 1. Clone the Repository
 
 ```bash
@@ -139,10 +140,7 @@ Stock-Starter/
 
 * ✅ Gemini Q\&A support for stock trends and risks
 * [ ] Deploy on Render / Vercel
-* [ ] Add OAuth2 login + analysis history
 * [ ] Allow multiple stocks & sector filtering
-* [ ] Daily auto-refresh of sentiment scores
-
 
 ---
 
@@ -162,4 +160,4 @@ Please ensure your usage complies with the respective providers' terms if deploy
 
 ## 🧠 Author
 
-Built by \[Ruihan] — for educational and demo purposes. Contributions welcome!
+Built by [Ruihan](https://github.com/Ruihan1124). Contributions welcome!
