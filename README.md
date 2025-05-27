@@ -35,10 +35,11 @@ flowchart LR
     B --> C[Forecast (Prophet)]
     A --> D[Extract news data (Finnhub/Mock)]
     D --> E[Sentiment scoring (FinBERT)]
-    B & E --> F[Store cleaned CSVs]
+    B --> F[Store cleaned CSVs]
+    E --> F
     F --> G[Plot & Save Charts]
     F --> H[Gemini Summary]
-```
+
 
 ---
 
