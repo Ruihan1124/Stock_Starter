@@ -39,7 +39,7 @@ flowchart TD
     E --> G[Generate Sentiment Scores]
     F --> H[Plot Forecast Charts]
     G --> I[Summarize Insights with Gemini]
-
+```
 
 ---
 
