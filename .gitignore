@@ -1,0 +1,14 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore raw data and sensitive outputs
+data/news_data/raw/
+data/stock_data/raw/
+
+# IDE settings (optional)
+*.idea/

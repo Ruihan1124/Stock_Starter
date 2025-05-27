@@ -1,0 +1,8 @@
+Flask
+requests
+pandas
+matplotlib
+scikit-learn
+transformers
+prophet
+logging

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Starter - {{ ticker }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      background: #fff;
+      padding: 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img { width: 100%; margin: 10px 0; border-radius: 5px; }
+    .small-center {
+      width: 70%;
+      margin: 10px auto;
+      display: block;
+      border-radius: 5px;
+    }
+    input, button {
+      padding: 10px; margin-top: 10px;
+      font-size: 16px;
+    }
+    #chatbox {
+      margin-top: 20px; border: 1px solid #ccc;
+      padding: 10px; height: 300px;
+      overflow-y: auto; background: #fafafa;
+      border-radius: 6px; white-space: pre-wrap;
+    }
+    .user-msg { color: #007BFF; font-weight: bold; margin-top: 10px; }
+    .bot-msg { color: #333; margin: 6px 0 10px 10px; }
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>📊 Analysis for {{ ticker }}</h2>
+
+  <h3>Price + Forecast</h3>
+  <img src="/static/{{ ticker }}_price_trend.png">
+
+  <h3>Daily Weighted Sentiment</h3>
+  <img src="/static/{{ ticker }}_daily_sentiment.png">
+
+  <h3>Sentiment Distribution</h3>
+  <img src="/static/{{ ticker }}_sentiment_pie.png" class="small-center">
+
+  <h3>News Sentiment Scatter</h3>
+  <img src="/static/{{ ticker }}_sentiment_line.png">
+
+  <h3>💬 Gemini Summary</h3>
+  <p style="white-space: pre-wrap;">{{ analysis }}</p>
+
+  <h3>🔁 Chat with Gemini</h3>
+  <div id="chatbox"></div>
+  <input id="userInput" type="text" placeholder="Ask a follow-up question...">
+  <button onclick="sendMessage()">Send</button>
+
+  <a href="/" class="back-button">🔙 Analyze another stock</a>
+
+  <script>
+    function sendMessage() {
+      const input = document.getElementById("userInput").value;
+      if (!input) return;
+
+      const chatbox = document.getElementById("chatbox");
+      chatbox.innerHTML += "<div class='user-msg'>You:</div><div class='bot-msg'>" + input + "</div>";
+
+      fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: input})
+      })
+      .then(res => res.json())
+      .then(data => {
+        chatbox.innerHTML += "<div class='user-msg'>Gemini:</div><div class='bot-msg'>" + data.response + "</div>";
+        document.getElementById("userInput").value = "";
+        chatbox.scrollTop = chatbox.scrollHeight;
+      });
+    }
+  </script>
+</div>
+</body>
+</html>

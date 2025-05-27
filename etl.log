@@ -1,0 +1,655 @@
+INFO:root:BA stock ETL completed.
+INFO:root:MMM stock ETL completed.
+INFO:root:MMM news ETL completed.
+INFO:root:MMM full ETL completed successfully.
+INFO:root:AAPL stock ETL completed.
+INFO:root:AAPL news ETL completed.
+INFO:root:AAPL full ETL completed successfully.
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp_7ayotxz\0vm7p1_a.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp_7ayotxz\rc_7c5n8.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=81005', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp_7ayotxz\\0vm7p1_a.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp_7ayotxz\\rc_7c5n8.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp_7ayotxz\\prophet_modelql4eicq0\\prophet_model-20250527195641.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:TSLA stock ETL completed.
+INFO:root:TSLA news ETL completed.
+INFO:root:TSLA full ETL completed successfully.
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpc45ul6d2\wi_1tv2t.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpc45ul6d2\_mc_sw02.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50831', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpc45ul6d2\\wi_1tv2t.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpc45ul6d2\\_mc_sw02.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpc45ul6d2\\prophet_modeltk0gplme\\prophet_model-20250527195853.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:AMD stock ETL completed.
+INFO:root:AMD news ETL completed.
+INFO:root:AMD full ETL completed successfully.
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpacg0fytu\kfn5op14.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpacg0fytu\ghgyuqlc.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=130', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpacg0fytu\\kfn5op14.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpacg0fytu\\ghgyuqlc.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpacg0fytu\\prophet_modelcvkc3jz9\\prophet_model-20250527201053.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:ABNB stock ETL completed.
+INFO:root:ABNB news ETL completed.
+INFO:root:ABNB full ETL completed successfully.
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp0cbhkxvd\f3d868_l.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp0cbhkxvd\z8e6mo2t.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=80998', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp0cbhkxvd\\f3d868_l.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp0cbhkxvd\\z8e6mo2t.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp0cbhkxvd\\prophet_modelniy6duvn\\prophet_model-20250527202931.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:AMD stock ETL completed.
+INFO:root:AMD news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:45] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:45] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=WQwZjzBMOTj7wAoHQcvJ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:29:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:05] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpyoca57gv\w6mx2hbb.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpyoca57gv\_p4p1ehs.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=86246', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpyoca57gv\\w6mx2hbb.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpyoca57gv\\_p4p1ehs.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpyoca57gv\\prophet_modeln9fj5dao\\prophet_model-20250527203612.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:TSLA stock ETL completed.
+INFO:root:TSLA news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:35] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Nkdkbdaw4XIFarey2qHO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:36:35] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:18] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmptw6fu5lc\f2ujx8hf.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmptw6fu5lc\cbcgh8lr.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=83669', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmptw6fu5lc\\f2ujx8hf.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmptw6fu5lc\\cbcgh8lr.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmptw6fu5lc\\prophet_modelwtp9o9mj\\prophet_model-20250527203924.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:TSLA stock ETL completed.
+INFO:root:TSLA news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:46] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:47] "GET /static/TSLA_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:47] "GET /static/TSLA_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:47] "GET /static/TSLA_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:39:47] "GET /static/TSLA_sentiment_pie.png HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:49:30] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp45lvpu91\khpadwxr.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp45lvpu91\jle7q_mp.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=14819', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp45lvpu91\\khpadwxr.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp45lvpu91\\jle7q_mp.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp45lvpu91\\prophet_modelgb1wke25\\prophet_model-20250527204955.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:BAC stock ETL completed.
+INFO:root:BAC news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:50:05] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:50:05] "GET /static/BAC_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:50:05] "GET /static/BAC_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 20:50:05] "GET /static/BAC_daily_sentiment.png HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:11] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp79schv0e\qhcu09fb.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp79schv0e\dyish7kk.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=65400', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\qhcu09fb.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\dyish7kk.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\prophet_model83p2ufg5\\prophet_model-20250527210023.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:BLK stock ETL completed.
+INFO:root:BLK news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:31] "GET /static/BLK_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:31] "GET /static/BLK_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:31] "GET /static/BLK_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:00:31] "GET /static/BLK_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:01:54] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:TBB already found in load path
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp79schv0e\fxrqzipj.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp79schv0e\6qna4dh8.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=30480', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\fxrqzipj.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\6qna4dh8.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp79schv0e\\prophet_model3thbkgb3\\prophet_model-20250527210159.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:HP stock ETL completed.
+INFO:root:HP news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:02:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:02:06] "GET /static/HP_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:02:06] "GET /static/HP_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:02:06] "GET /static/HP_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:02:06] "GET /static/HP_sentiment_line.png HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:15] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp83i3n8s0\jvtpi6j1.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp83i3n8s0\gkhpmfkb.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=46991', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp83i3n8s0\\jvtpi6j1.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp83i3n8s0\\gkhpmfkb.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp83i3n8s0\\prophet_modelqwo9zx_2\\prophet_model-20250527210436.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:DELL stock ETL completed.
+INFO:root:DELL news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:44] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:44] "GET /static/DELL_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:44] "GET /static/DELL_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:44] "GET /static/DELL_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:04:44] "GET /static/DELL_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:02] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpk_wufz6a\kf7cuqca.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpk_wufz6a\ggqx5uyb.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=44902', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpk_wufz6a\\kf7cuqca.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpk_wufz6a\\ggqx5uyb.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpk_wufz6a\\prophet_modelld6i6q40\\prophet_model-20250527210716.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:HPE stock ETL completed.
+INFO:root:HPE news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:22] "GET /static/HPE_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:22] "GET /static/HPE_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:22] "GET /static/HPE_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:07:22] "GET /static/HPE_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:19:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:19:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:19:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:19:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:20:08] "POST / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:18] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmppyl_9keg\464ulkv8.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmppyl_9keg\euj6_6n8.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=28014', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmppyl_9keg\\464ulkv8.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmppyl_9keg\\euj6_6n8.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmppyl_9keg\\prophet_modelcyvdvueg\\prophet_model-20250527212428.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:DPZ stock ETL completed.
+INFO:root:DPZ news ETL completed.
+INFO:werkzeug: * Detected change in 'C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:35] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=eHdYZSexQFEN3qfYzTqi HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:24:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:43] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmponlpr56q\72q2k45_.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmponlpr56q\o1l8o_5y.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=44734', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmponlpr56q\\72q2k45_.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmponlpr56q\\o1l8o_5y.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmponlpr56q\\prophet_modeliil3gz_5\\prophet_model-20250527214049.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:DPZ stock ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=CgXwTG0k9Uv6I0fExcqM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:40:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:31] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp4a_lfmjx\a55wqcyz.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp4a_lfmjx\j7z0r048.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=49892', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp4a_lfmjx\\a55wqcyz.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp4a_lfmjx\\j7z0r048.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp4a_lfmjx\\prophet_modelq9q1o6o0\\prophet_model-20250527214436.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:DPZ stock ETL completed.
+INFO:root:DPZ news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:42] "GET /static/DPZ_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:42] "GET /static/DPZ_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:42] "GET /static/DPZ_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:44:42] "GET /static/DPZ_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:45:44] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\gemini.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:14] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpvr40o2lr\ypjh81qt.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpvr40o2lr\lkdnrgzq.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=90021', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpvr40o2lr\\ypjh81qt.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpvr40o2lr\\lkdnrgzq.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpvr40o2lr\\prophet_modeljdcy2xm_\\prophet_model-20250527215723.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:EBAY stock ETL completed.
+INFO:root:EBAY news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:29] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:30] "GET /static/EBAY_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:30] "GET /static/EBAY_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:30] "GET /static/EBAY_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:30] "GET /static/EBAY_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 21:57:56] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:01:45] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp8h38ke53\o9061iu7.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmp8h38ke53\77g8443w.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=62598', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp8h38ke53\\o9061iu7.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp8h38ke53\\77g8443w.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmp8h38ke53\\prophet_modelbljvjwn7\\prophet_model-20250527220159.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:AMZN stock ETL completed.
+INFO:root:AMZN news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:02:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:02:17] "GET /static/AMZN_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:02:17] "GET /static/AMZN_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:02:17] "GET /static/AMZN_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:02:17] "GET /static/AMZN_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2025 22:05:00] "GET / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:41:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:41:52] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpur2hxkli\brbwf0wg.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpur2hxkli\sibpowso.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=42788', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\brbwf0wg.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\sibpowso.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\prophet_modelkbdeu9mt\\prophet_model-20250528004308.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:SBUX stock ETL completed.
+INFO:root:SBUX news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:43:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:43:18] "GET /static/SBUX_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:43:18] "GET /static/SBUX_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:43:18] "GET /static/SBUX_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:43:18] "GET /static/SBUX_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:44:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:44:59] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:TBB already found in load path
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpur2hxkli\2bxo3_54.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpur2hxkli\ioen3zqk.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=7604', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\2bxo3_54.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\ioen3zqk.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpur2hxkli\\prophet_model3rk9s29i\\prophet_model-20250528004623.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:SBUX stock ETL completed.
+INFO:root:SBUX news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:46:32] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:46:32] "GET /static/SBUX_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:46:32] "GET /static/SBUX_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:46:32] "GET /static/SBUX_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:46:32] "GET /static/SBUX_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:47:05] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:47:46] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:48:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:48:18] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:53:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:53:49] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Stock Starter\\app\\etl\\stock_etl.py', reloading
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:54:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:54:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:54:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:54:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=6P0qb3WvDF6rbW2pAWP0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:54:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpx76jsf7i\gee5lzx4.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmpx76jsf7i\wxozrfez.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=58041', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpx76jsf7i\\gee5lzx4.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpx76jsf7i\\wxozrfez.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmpx76jsf7i\\prophet_modelmqjoof35\\prophet_model-20250528005757.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:C stock ETL completed.
+INFO:root:C news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:09] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:09] "GET /static/C_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:09] "GET /static/C_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:09] "GET /static/C_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:09] "GET /static/C_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:34] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:58:55] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:59:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 00:59:01] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:04:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:04:22] "[33mGET /static/sp500_list.json HTTP/1.1[0m" 404 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:10:27] "GET / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:12:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:12:35] "GET / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:18:07] "GET / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:19:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:19:25] "GET / HTTP/1.1" 200 -
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 915-846-378
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:18] "GET / HTTP/1.1" 200 -
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmplxez5b8k\a1ptwwxf.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\pc\AppData\Local\Temp\tmplxez5b8k\wji_o2gh.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=55375', 'data', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmplxez5b8k\\a1ptwwxf.json', 'init=C:\\Users\\pc\\AppData\\Local\\Temp\\tmplxez5b8k\\wji_o2gh.json', 'output', 'file=C:\\Users\\pc\\AppData\\Local\\Temp\\tmplxez5b8k\\prophet_model01vq8z2g\\prophet_model-20250528012439.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+INFO:root:COST stock ETL completed.
+INFO:root:COST news ETL completed.
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:49] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:50] "GET /static/COST_sentiment_line.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:50] "GET /static/COST_sentiment_pie.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:50] "GET /static/COST_price_trend.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:24:50] "GET /static/COST_daily_sentiment.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2025 01:25:01] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Starter - Start Analysis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #007BFF;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .container h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .container p {
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    select, input[type="text"] {
+      width: 90%;
+      padding: 14px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .dropdown-label {
+      text-align: left;
+      font-size: 15px;
+      margin-bottom: 5px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Stock Starter 💹
+  </div>
+
+  <div class="container">
+    <h2>Start Your Stock Analysis</h2>
+    <form method="POST">
+      <p class="dropdown-label">📌 Type in a stock ticker manually</p>
+      <input type="text" name="company" id="company-input" placeholder="e.g., TSLA">
+
+      <p class="dropdown-label">📂 You could select a stock from S&P 500</p>
+      <select name="company" onchange="document.getElementById('company-input').value=this.value">
+        <option value="">-- Select a stock --</option>
+        {% for stock in sp500_list %}
+          <option value="{{ stock.ticker }}">{{ stock.ticker }} - {{ stock.name }}</option>
+        {% endfor %}
+      </select>
+
+      <button type="submit">Analyze</button>
+    </form>
+  </div>
+</body>
+</html>
