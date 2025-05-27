@@ -31,7 +31,7 @@ This tool is ideal for retail investors, students, or anyone who wants a quick a
 
 ```mermaid
 flowchart TD
-    A[Input: Stock Ticker] --> B[Extract Stock Data (Alpha Vantage)]
+    A[Input: Stock Ticker] --> B[Extract Stock Data --> Alpha Vantage]
     A --> C[Extract News Data (Finnhub)]
     B --> D[Clean & Save Stock Data]
     C --> E[Perform Sentiment Analysis (FinBERT)]
