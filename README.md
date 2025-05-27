@@ -31,11 +31,11 @@ This tool is ideal for retail investors, students, or anyone who wants a quick a
 
 ```mermaid
 flowchart TD
-    A[Input: Stock Ticker] --> B[Extract Stock Data --> Alpha Vantage]
-    A --> C[Extract News Data (Finnhub)]
+    A[Input: Stock Ticker] --> B[Extract Stock Data --> from Alpha Vantage]
+    A --> C[Extract News Data --> from Finnhub]
     B --> D[Clean & Save Stock Data]
-    C --> E[Perform Sentiment Analysis (FinBERT)]
-    D --> F[Forecast Stock Price (Prophet)]
+    C --> E[Perform Sentiment Analysis --> using FinBERT]
+    D --> F[Forecast Stock Price --> using Prophet]
     E --> G[Generate Sentiment Scores]
     F --> H[Plot Forecast Charts]
     G --> I[Summarize Insights with Gemini]
